@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="ISU_Internal_CAN" Class="ITSsqlInternalCANDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=??????;Initial Catalog=ISU_Internal_CAN;Persist Security Info=True;User ID=?????" SettingsObjectName="CYM____trimFL2016_loads.Properties.Settings" SettingsPropertyName="ISU_Internal_CANConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TractorLocation" Member="TractorLocations">
+    <Type Name="TractorLocation">
+      <Column Name="ref_name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+      <Column Name="ts_sec" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GPS_DateTime" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Elev_Speed" Type="System.Decimal" DbType="Decimal(13,2)" CanBeNull="true" />
+      <Column Name="Cumulative_Volume_Scaled" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="SCALE1_LBS" Type="System.Decimal" DbType="Decimal(17,5)" CanBeNull="true" />
+      <Column Name="CAN_NavigationBasedVehicleSpeed_kph" Type="System.Decimal" DbType="Decimal(17,6)" CanBeNull="true" />
+      <Column Name="CAN_Latitude" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="CAN_Longitude" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SugarWagonTractor" Member="SugarWagonTractors">
+    <Type Name="SugarWagonTractor">
+      <Column Name="ts_sec" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ts_usec" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="channel" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="mid" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="pgn" Type="System.String" DbType="NVarChar(5)" CanBeNull="true" />
+      <Column Name="sa" Type="System.String" DbType="NVarChar(2)" CanBeNull="true" />
+      <Column Name="dlc" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d0" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d1" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d2" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d3" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d4" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d5" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d6" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="d7" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="ref_name" Type="System.String" DbType="NVarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

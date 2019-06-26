@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11.625, 8.5" name="ITSsqlInternalCAN">
+  <DataContextMoniker Name="/ITSsqlInternalCANDataContext" />
+  <nestedChildShapes>
+    <classShape Id="82b84ab2-5b1a-420e-a84b-ee2a0b11f537" absoluteBounds="4.875, 2.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/ITSsqlInternalCANDataContext/TractorLocation" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a5ca66a5-4ae5-4c32-b89d-3876bcf97fdd" absoluteBounds="4.89, 2.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="92d063fc-6c86-4117-b8b7-2dc441dccdd0" absoluteBounds="9.375, 1.5, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/ITSsqlInternalCANDataContext/SugarWagonTractor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="959c12c1-909d-4431-8f38-4b5fc73417bc" absoluteBounds="9.39, 1.96, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
